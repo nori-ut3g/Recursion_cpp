@@ -11,11 +11,6 @@ class Node{
             this->next = NULL;
             this->prev = NULL;
         };
-        void addNextNode(Node *newNode){
-            Node *tempNode = this->next;
-            this->next = newNode;
-            newNode->next = tempNode;
-        };
 };
 class SinglyLinkedList{
     public:

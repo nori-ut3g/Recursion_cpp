@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Recursion_cpp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Recursion_cpp">
+				<Option output="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/cmake-build-debug/Recursion_cpp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Recursion_cpp"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Recursion_cpp/fast">
+				<Option output="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/cmake-build-debug/Recursion_cpp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Recursion_cpp/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/Deque(1).cpp">
+			<Option target="Recursion_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/Deque(2).cpp">
+			<Option target="Recursion_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/Deque(3).cpp">
+			<Option target="Recursion_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/DoubleLinkedList.cpp">
+			<Option target="Recursion_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/DoubleLinkedList_Delete.cpp">
+			<Option target="Recursion_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/DoubleLinkedList_Index1.cpp">
+			<Option target="Recursion_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/DoubleLinkedList_Index2.cpp">
+			<Option target="Recursion_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/DoubleLinkedList_Insert.cpp">
+			<Option target="Recursion_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/HashmapCaching1.cpp">
+			<Option target="Recursion_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/HashmapCaching2-1.cpp">
+			<Option target="Recursion_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/HashmapCaching2-2.cpp">
+			<Option target="Recursion_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/HashmapCaching3.cpp">
+			<Option target="Recursion_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/LinkedList.cpp">
+			<Option target="Recursion_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/LinkedList_Delete1.cpp">
+			<Option target="Recursion_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/LinkedList_Delete2.cpp">
+			<Option target="Recursion_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/LinkedList_Index1.cpp">
+			<Option target="Recursion_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/LinkedList_Index2.cpp">
+			<Option target="Recursion_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/LinkedList_Insert1.cpp">
+			<Option target="Recursion_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/LinkedList_Insert2.cpp">
+			<Option target="Recursion_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/LinkedList_Insert3.cpp">
+			<Option target="Recursion_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/LinkedList_Insert4.cpp">
+			<Option target="Recursion_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/Queue.cpp">
+			<Option target="Recursion_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/Stack(1).cpp">
+			<Option target="Recursion_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/Stack(2)1.cpp">
+			<Option target="Recursion_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/Stack(2)2.cpp">
+			<Option target="Recursion_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/Stack(2)3.cpp">
+			<Option target="Recursion_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/AKINORI NAKADA/Documents/Projects/Recursion_cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

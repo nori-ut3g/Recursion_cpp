@@ -1,6 +1,7 @@
 #include <iostream>
 #include <functional>
 #include <vector>
+#include <numeric>
 using namespace std;
 
 vector<int> myMap(function<int(int)> f, vector<int> l) {
@@ -18,5 +19,8 @@ void printArray(vector<int> intArr){
 
 int main() {
     vector<int> nums {1,2,3,4,5,6,7};
+    printArray(nums);
     printArray(myMap([](int x){return x*x;}, nums) );
-}
+    printArray(accumulate(nums.begin(), nums.end(), vector<int>(), [](vector<int> result, int x){
+        result.push_back(x*x);
+        return result;}));}

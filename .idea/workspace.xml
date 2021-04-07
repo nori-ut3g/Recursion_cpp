@@ -14,33 +14,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26d85678-f002-4292-9c73-01747ee59751" name="Default Changelist" comment="test 途中からgitignoreできるかどうか">
-      <change afterPath="$PROJECT_DIR$/async_function-1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/async_function-2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/async_function-3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/callback_function.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator_pattern-1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator_pattern-2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator_pattern-3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/high_order_function(1).cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/high_order_function(2)-1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/high_order_function(2)_2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/high_order_function(3)-1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/high_order_function(3)-2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/high_order_function(3)-3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda_output-1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda_output-2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loop.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/map_filter-1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/map_filter-2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random_closure.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reduce-1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reduce-2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reduce-3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_queue.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.cpp" afterDir="false" />
+    <list default="true" id="26d85678-f002-4292-9c73-01747ee59751" name="Default Changelist" comment="add Section ラムダ関数 snippet">
+      <change afterPath="$PROJECT_DIR$/reduce-4.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/high_order_function(3)-3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/high_order_function(3)-3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map_filter-1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/map_filter-1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map_filter-2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/map_filter-2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reduce-1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/reduce-1.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +78,7 @@
       <workItem from="1617670567441" duration="3027000" />
       <workItem from="1617674741241" duration="1997000" />
       <workItem from="1617696848573" duration="430000" />
-      <workItem from="1617755328969" duration="7039000" />
+      <workItem from="1617755328969" duration="13270000" />
     </task>
     <task id="LOCAL-00001" summary="test 途中からgitignoreできるかどうか">
       <created>1617755788716</created>
@@ -121,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617755960567</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add Section ラムダ関数 snippet">
+      <created>1617762897998</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617762897998</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +158,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test 途中からgitignoreできるかどうか" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 途中からgitignoreできるかどうか" />
+    <MESSAGE value="add Section ラムダ関数 snippet" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Section ラムダ関数 snippet" />
   </component>
 </project>

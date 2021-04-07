@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
     auto timeDecorator = [](function<int(int)> f) {
-        return [f](int arg){
+        return [&f](int arg){
             clock_t start = clock();
             int result = f(arg);
             clock_t end = clock();

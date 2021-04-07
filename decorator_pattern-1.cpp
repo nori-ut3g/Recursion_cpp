@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     auto simpleDecorator = [](function <string()> f) {
-        return [=]{
+        return [&f]{
             cout << "Running f......" << endl;
             return f();
         };

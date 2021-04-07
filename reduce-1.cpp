@@ -14,14 +14,6 @@ int myReduce(function<int(int,int)> reduceCallback, vector<int> l, int initial) 
     return lastResult;
 }
 
-int sum(function<int(int,int)> sumCallback, int end) {
-    int lastResult = 0;
-    for(int i=1; i<end+1; i++) {
-        int result = sumCallback(lastResult, i);
-        lastResult = result;
-    }
-    return lastResult;
-}
 int main() {
     vector<int> list1 {1,2,3};
     vector<int> list2 {1,2,3,4,5,6,7,8,9,10};
@@ -30,10 +22,7 @@ int main() {
 
     cout << myReduce([](int total, int x){return total*x;}, list2, 1) << endl;
 
-    cout << sum([](int total, int x){return total+x;},10) << endl;
+    cout << accumulate(list2.begin(), list2.end(), 1, [](int total, int x){return total * x;});
 
-    cout << accumulate(list2.begin(), list2.end(), 0, [](int total, int i){return total + i;});
-
-    cout << reduce(list2.begin(), list2.end(), 0, [](int total, int i){return total + i;});
 
 }

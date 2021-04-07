@@ -13,7 +13,8 @@ function<int(int)> constantMultiplication(int x) {
 
 int main() {
     function<string()> outputF = helloFn();
-    cout<< "Running a function that was generated...." + outputF() << endl;
+    cout << outputF() << endl;
+    cout << "Running a function that was generated...." + outputF() << endl;
 
     function<int(int)> multiplyBy4 = constantMultiplication(4);
 

@@ -15,12 +15,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26d85678-f002-4292-9c73-01747ee59751" name="Default Changelist" comment="add Section ラムダ関数 snippet">
-      <change afterPath="$PROJECT_DIR$/reduce-4.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/high_order_function(3)-3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/high_order_function(3)-3.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map_filter-1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/map_filter-1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map_filter-2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/map_filter-2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reduce-1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/reduce-1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/high_order_function(3)-1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/high_order_function(3)-1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/high_order_function(3)-2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/high_order_function(3)-2.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +47,12 @@
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RunManager">
-    <configuration name="Recursion_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Recursion_cpp" TARGET_NAME="Recursion_cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Recursion_cpp" RUN_TARGET_NAME="Recursion_cpp">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="Recursion_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Recursion_cpp" TARGET_NAME="Recursion_cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Recursion_cpp" RUN_TARGET_NAME="Recursion_cpp">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -79,6 +76,7 @@
       <workItem from="1617674741241" duration="1997000" />
       <workItem from="1617696848573" duration="430000" />
       <workItem from="1617755328969" duration="13270000" />
+      <workItem from="1617796626504" duration="2130000" />
     </task>
     <task id="LOCAL-00001" summary="test 途中からgitignoreできるかどうか">
       <created>1617755788716</created>

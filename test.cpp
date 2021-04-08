@@ -1,41 +1,37 @@
 #include <iostream>
+#include <thread>
+#include <chrono>
 #include <functional>
-#include <string>
 
 using namespace std;
 
-//std::function
-string functionalInputTest(function<string()> f) {
-    return  f() + ".... called from functionalInputTest!";
-}
-
-//template
-template<class F> string templateInputTest(F f) {
-    return string(f()) + ".... called from templateInputTest!";
-}
-
-//pointer String
-string poiterInputTest(const char* (*f)()) {
-    return string(f()) + ".... called from poiterInputTest!";
-}
-
 int main() {
-    auto f = []{return "hello world";};
+    function<void()> printFinish = []{
+        cout << "Finish!" << endl;
+    };
 
-    cout << functionalInputTest(f) << endl;
-    cout << templateInputTest(f) << endl;
-    cout << poiterInputTest(f) << endl;
+    function<void(function<void()>, int)> runAfterXMs = [](function<void()> f,int ms) {
+        cout << "running the function ....." << endl;
+        thread th1(f);
+        this_thread::sleep_for(chrono::milliseconds(ms));
+//        thread th1(f);
+        th1.join();
+    };
 
-    function<string()> g = []{return "hello mars";};
-    const char* (*h)() = []{return "hello jupiter";};
-    string (*i)() = []{return string("hello jupiter");};
+    function<void(function<void()>, int)> tickTack = [](function<void()> f,int ms) {
+        cout << "running the function .";
+        for(int i=0; i < int(ms/500); i++){
+            thread time([]{cout << "."; });
+            time.join();
+            this_thread::sleep_for(chrono::milliseconds(500));
+        }
+        cout<<endl;
+        thread th1(f);
+        th1.join();
+        this_thread::sleep_for(chrono::milliseconds(ms%500));
 
-    cout << "-----------" << endl;
-    cout << functionalInputTest(g) << endl;
-    cout << templateInputTest(g) << endl;
-    cout << poiterInputTest(h) << endl;
-    cout << templateInputTest(h) << endl;
+    };
+    runAfterXMs(printFinish, 5000);
+    tickTack(printFinish, 5000);
 
-    cout << functionalInputTest(i) << endl;
-    cout << templateInputTest(i) << endl;
 }

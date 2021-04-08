@@ -15,9 +15,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26d85678-f002-4292-9c73-01747ee59751" name="Default Changelist" comment="add Section ラムダ関数 snippet">
+      <change beforePath="$PROJECT_DIR$/.idea/Recursion_cpp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Recursion_cpp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/high_order_function(3)-1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/high_order_function(3)-1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/high_order_function(3)-2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/high_order_function(3)-2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async_function-1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/async_function-1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async_function-2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/async_function-2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +78,8 @@
       <workItem from="1617670567441" duration="3027000" />
       <workItem from="1617674741241" duration="1997000" />
       <workItem from="1617696848573" duration="430000" />
-      <workItem from="1617755328969" duration="13270000" />
-      <workItem from="1617796626504" duration="2130000" />
+      <workItem from="1617755328969" duration="13488000" />
+      <workItem from="1617842722138" duration="8039000" />
     </task>
     <task id="LOCAL-00001" summary="test 途中からgitignoreできるかどうか">
       <created>1617755788716</created>
@@ -106,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617762897998</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add Section ラムダ関数 snippet">
+      <created>1617772292421</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617772292421</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

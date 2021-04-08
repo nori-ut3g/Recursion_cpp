@@ -3,6 +3,11 @@ project(Recursion_cpp)
 
 set(CMAKE_CXX_STANDARD 17)
 
+#set(THREADS_PREFER_PTHREAD_FLAG ON)
+#find_package(Threads REQUIRED)
+#target_link_libraries(project PUBLIC "-pthread")
+
+
 add_executable(Recursion_cpp
 #        "Deque(1).cpp"
 #        "Deque(2).cpp"
